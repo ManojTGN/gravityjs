@@ -1,0 +1,1 @@
+var TOTAL_WORLDS = 0;

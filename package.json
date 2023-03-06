@@ -7,18 +7,24 @@
     "test": "test"
   },
   "scripts": {
-    "build": "",
+    "build": "uglifyjs ./src/gravity.js -c -m -o ./build/gravity.min.js",
     "test": ""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ManojTGN/gravityjs.git"
   },
-  "keywords": ["gravity", "gravityjs"],
+  "keywords": [
+    "gravity",
+    "gravityjs"
+  ],
   "author": "ManojTGN",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ManojTGN/gravityjs/issues"
   },
-  "homepage": "https://github.com/ManojTGN/gravityjs#readme"
+  "homepage": "https://github.com/ManojTGN/gravityjs#readme",
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  }
 }
