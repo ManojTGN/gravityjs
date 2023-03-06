@@ -1,0 +1,24 @@
+{
+  "name": "gravityjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/gravity.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManojTGN/gravityjs.git"
+  },
+  "keywords": ["gravity", "gravityjs"],
+  "author": "ManojTGN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManojTGN/gravityjs/issues"
+  },
+  "homepage": "https://github.com/ManojTGN/gravityjs#readme"
+}
